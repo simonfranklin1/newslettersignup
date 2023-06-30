@@ -132,10 +132,11 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 390px;
-    height: 390px;
-    border-radius: 25px;
-    padding: 35px;
+    width: 350px;
+    height: 350px;
+    border-radius: 17px;
+    padding: 10px;
+    padding-bottom: 45px;
     font-family: 'Roboto', sans-serif;
 }
 
