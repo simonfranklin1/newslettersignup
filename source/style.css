@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #22253E;
+    background: hsl(235, 18%, 26%);
+}
+
+main {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    animation: appear .3s forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0.1;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
+#headimg img {
+    width: 100%;
+}
+
+header {
+    width: 390px;
+    height: 68px;
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 57px;
+    margin: 0;
+}
+
+section {
+    padding: 40px;
+    margin: auto;
+}
+
+#foto {
+    display: none;
+}
+
+p img {
+    padding-right: 10px;
+}
+
+#maior {
+    height: 550px;
+}
+
+#form input {
+    border-radius: 7px;
+}
+
+#form h3 {
+    display: inline-block;
+    width: 150px;
+    margin-top: 0px;
+}
+
+#p {
+    display: none;
+    margin: 0;
+    margin-left: 60px;
+    color: rgba(255, 0, 0, 0.678);
+}
+
+#texto {
+    margin-bottom: 50px;
+}
+
+footer {
+    color: white;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto',sans-serif;
+    display: none;
+}
+
+#mail {
+    width: 335px;
+    height: 36px;
+    border: 1px hsl(231, 7%, 60%) solid; /*red*/
+    color: hsl(231, 7%, 60%); /*red*/
+    background: white;
+    margin-bottom: 27px;
+    padding: 10px;
+}
+
+.red {
+    width: 335px;
+    height: 36px;
+    border: 1px rgba(255, 0, 0, 0.678) solid; /*red*/
+    color: rgba(255, 0, 0, 0.678); /*red*/
+    background: rgba(255, 0, 0, 0.247);
+    margin-bottom: 27px;
+    padding: 10px;   
+}
+
+#botao {
+    padding: 0;
+    background: #22253E;
+    border: none;
+    width: 358px;
+    height: 55px;
+    color: white;
+    transition: .3s;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#botao:hover {
+    background: linear-gradient(to right, #FD5D58, #ff3d36, #E84C69);/*#141625*/
+    cursor: pointer;
+    scale: 1.05;
+}
+
+#sucesso {
+    display: none;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 390px;
+    height: 390px;
+    border-radius: 25px;
+    padding: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sucesso h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sucesso {
+    display: block;
+    color: #22253E;
+    padding: 0;
+    margin: auto;
+}
+
+.voltar {
+    background: #22253E;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-top: 30px;
+    transition: .3s;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.voltar:hover {
+    background: linear-gradient(to right, #FD5D58, #ff3d36, #E84C69);
+    cursor: pointer;
+    scale: 1.05;
+}

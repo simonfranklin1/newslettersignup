@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter sign-up</title>
+    <link rel="stylesheet" href="source/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="source/responsive.css">
+    <link rel="shortcut icon" href="source/imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="conteudo">
+        <main>
+            <div id="headimg">
+                <img src="source/imagens/illustration-sign-up-mobile.svg" alt="" srcset="" id="menor">
+            </div>
+            
+            <section id="section">
+            <header>
+                <h1>Stay updated!</h1>
+            </header>
+                <div id="texto">
+                    
+                    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                    <p><img src="source/imagens/icon-list.svg" alt="icon"> Product discovery and building what matters</p>
+                    <p><img src="source/imagens/icon-list.svg" alt="icon"> Measuring to ensure updates are a success</p>
+                    <p><img src="source/imagens/icon-list.svg" alt="icon"> And much more!</p>
+                </div>
+                <div id="form">
+                    <h3>Email address</h3>  <p id="p">Valid email required</p>
+                    <input autocomplete="email" placeholder="email@company.com"  type="email" name="mail" id="mail">
+                    <input type="button" id="botao" value="Subscribe to monthly newsletter" onclick="confirmacao()">
+                </div>
+            </section>
+            <div id="foto">
+                <img id="maior" src="source/imagens/illustration-sign-up-desktop.svg" alt="">
+            </div>
+        </main>
+    </div>
+    <div id="sucesso">
+        <section class="sucesso">
+            <img src="source/imagens/icon-success.svg" alt="" srcset="">
+            <h1>Thanks for subscribing!</h1>
+            <div id="mensagem">
+                <p>A confirmation email has been sent to dino123@gmail.com Please open it and click the button inside to confirm your subscription.</p>
+            </div>
+            <input type="button" value="Dismiss message" class="voltar" onclick="voltar()">
+        </section>
+    </div>
+    <footer>Developed by Simon franklin</footer>
+</body>
+<script src="source/newsletter.js"></script>
+</html>

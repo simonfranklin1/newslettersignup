@@ -1,0 +1,44 @@
+@media (min-width: 893px) {
+    main {
+        background: white;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 850px;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        border-radius: 28px;
+        color: #22253E;
+    }
+    #foto {
+        display: block;
+    }
+    section {
+        margin-top: 26.641px;
+        margin-bottom: 36.641px;
+        margin-right: 24.500px;
+        margin-left: 24.500px;
+    }
+}
+@media (min-width: 501px) {
+    #headimg {
+        display: none;
+    }
+    main {
+      width: 400px; 
+      background: white;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 28px;
+      height: 550px; 
+    }
+    section {
+        padding: 20px;
+    }
+}
