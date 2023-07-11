@@ -132,11 +132,11 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
-    height: 350px;
-    border-radius: 17px;
-    padding: 10px;
-    padding-bottom: 45px;
+    width: 350px; /**/
+    height: 400px; /**/
+    border-radius: 25px;
+    padding: 35px;
+    padding-top: 15px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -160,10 +160,10 @@ footer {
     color: white;
     border: none;
     border-radius: 7px;
-    margin-top: 30px;
     transition: .3s;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
 }
 
 .voltar:hover {
